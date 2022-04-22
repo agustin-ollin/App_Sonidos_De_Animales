@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zoo Sounds</string>
+    <string name="descriptionImage">Imágenes de animales</string>
+    <string name="descCaballo">caballo</string>
+    <string name="descElefante">elefante</string>
+    <string name="descgallo">gallo</string>
+    <string name="descGato">gato</string>
+    <string name="descMono">mono</string>
+    <string name="descPato">pato</string>
+    <string name="descPerro">perro</string>
+    <string name="descRana">rana</string>
+    <string name="descVaca">vaca</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/first"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un animal"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/caballoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descCaballo"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/caballo" />
+
+        <ImageButton
+            android:id="@+id/elefanteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descElefante"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/elefante" />
+
+        <ImageButton
+            android:id="@+id/galloButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descgallo"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/gallo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/gatoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descGato"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/gato" />
+
+        <ImageButton
+            android:id="@+id/monoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descMono"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/mono" />
+
+        <ImageButton
+            android:id="@+id/patoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descPato"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/pato" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/perroButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descPerro"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/perro" />
+
+        <ImageButton
+            android:id="@+id/ranaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descRana"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/rana" />
+
+        <ImageButton
+            android:id="@+id/vacaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparentAll"
+            android:contentDescription="@string/descVaca"
+            android:onClick="reproducir"
+            app:srcCompat="@drawable/vaca" />
+    </LinearLayout>
+</LinearLayout>
